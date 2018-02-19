@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/computer_share?useSSL=false
+    username: root
+    password: calm
+
+logging:
+    level:
+        com.computer.share: DEBUG

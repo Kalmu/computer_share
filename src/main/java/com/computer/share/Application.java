@@ -1,11 +1,11 @@
-package com.company.project.leaveMsg;
+package com.computer.share;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.company.project.leaveMsg.dao")
+@MapperScan("com.computer.share.dao")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
