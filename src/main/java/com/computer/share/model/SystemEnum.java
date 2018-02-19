@@ -1,9 +1,9 @@
 package com.computer.share.model;
 
 public enum SystemEnum {
-    SUCCESS(0, "成功"),
-    FAIL(0, "失败"),
-    OTHER(0, "其他");
+    SUCCESS(1000, "成功"),
+    FAIL(1001, "失败"),
+    OTHER(1002, "其他");
     private int code;
     private String message;
 
